@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bedrock Rail Train Resources",
+    "description": "Models and rendering resources for the Bedrock Rail Train.",
+    "uuid": "f2d6a9c4-1e87-4b53-9a20-6c8d7f3b5e14",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "Train resource module",
+      "type": "resources",
+      "uuid": "b7e3c1a5-9d62-4f08-8c74-2a6e5b9d1f30",
+      "version": [1, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "bedrockrail:rail_train",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["rail_train", "minecart", "inanimate"]
+      },
+      "minecraft:collision_box": {
+        "width": 1.8,
+        "height": 1.8
+      },
+      "minecraft:rail_movement": {
+        "max_speed": 0.4,
+        "rail_speed": 0.4
+      },
+      "minecraft:rail_sensor": {
+        "check_block_types": true,
+        "eject_direction": [0, 1, 0]
+      },
+      "minecraft:rideable": {
+        "seat_count": 8,
+        "family_types": ["player"],
+        "interact_text": "action.interact.ride.minecart",
+        "seats": [
+          {"position": [-0.65, 0.55, -0.65]},
+          {"position": [0.65, 0.55, -0.65]},
+          {"position": [-0.65, 0.55, 0.65]},
+          {"position": [0.65, 0.55, 0.65]},
+          {"position": [-0.65, 0.55, 0]},
+          {"position": [0.65, 0.55, 0]},
+          {"position": [0, 0.55, -0.65]},
+          {"position": [0, 0.55, 0.65]}
+        ]
+      },
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:health": {
+        "value": 40,
+        "max": 40
+      },
+      "minecraft:nameable": {}
+    }
+  }
+}

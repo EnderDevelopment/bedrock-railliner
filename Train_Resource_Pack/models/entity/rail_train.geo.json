@@ -1,0 +1,75 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.bedrockrail.train",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 3.2,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [0, 1.1, 0]
+      },
+      "bones": [
+        {
+          "name": "body",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {"origin": [-1.5, 0.2, -1.0], "size": [3, 1.5, 2], "uv": [0, 0]},
+            {"origin": [-1.35, 1.7, -0.85], "size": [2.7, 0.18, 1.7], "uv": [0, 16]},
+            {"origin": [-1.55, 0.35, -1.08], "size": [0.15, 1.15, 2.16], "uv": [0, 32]},
+            {"origin": [1.4, 0.35, -1.08], "size": [0.15, 1.15, 2.16], "uv": [8, 32]},
+            {"origin": [-1.45, 0.35, -1.08], "size": [2.9, 0.15, 0.15], "uv": [16, 32]},
+            {"origin": [-1.45, 0.35, 0.93], "size": [2.9, 0.15, 0.15], "uv": [24, 32]}
+          ]
+        },
+        {
+          "name": "front_window_frame",
+          "parent": "body",
+          "pivot": [0, 1.2, -1.01],
+          "cubes": [
+            {"origin": [-1.25, 0.95, -1.12], "size": [0.12, 0.7, 0.12], "uv": [32, 32]},
+            {"origin": [1.13, 0.95, -1.12], "size": [0.12, 0.7, 0.12], "uv": [32, 32]},
+            {"origin": [-1.25, 1.55, -1.12], "size": [2.5, 0.12, 0.12], "uv": [32, 32]}
+          ]
+        },
+        {
+          "name": "handrails_left",
+          "parent": "body",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {"origin": [-1.15, 0.5, -0.72], "size": [0.1, 1.4, 0.1], "uv": [40, 32]},
+            {"origin": [1.05, 0.5, -0.72], "size": [0.1, 1.4, 0.1], "uv": [40, 32]},
+            {"origin": [-1.15, 1.8, -0.72], "size": [2.3, 0.1, 0.1], "uv": [40, 32]}
+          ]
+        },
+        {
+          "name": "handrails_right",
+          "parent": "body",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {"origin": [-1.15, 0.5, 0.62], "size": [0.1, 1.4, 0.1], "uv": [40, 32]},
+            {"origin": [1.05, 0.5, 0.62], "size": [0.1, 1.4, 0.1], "uv": [40, 32]},
+            {"origin": [-1.15, 1.8, 0.62], "size": [2.3, 0.1, 0.1], "uv": [40, 32]}
+          ]
+        },
+        {
+          "name": "coupler_front",
+          "parent": "body",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {"origin": [-0.25, 0.25, -1.35], "size": [0.5, 0.3, 0.35], "uv": [48, 32]}
+          ]
+        },
+        {
+          "name": "coupler_back",
+          "parent": "body",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {"origin": [-0.25, 0.25, 1.0], "size": [0.5, 0.3, 0.35], "uv": [48, 32]}
+          ]
+        }
+      ]
+    }
+  ]
+}

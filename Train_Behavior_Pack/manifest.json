@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bedrock Rail Train Behavior",
+    "description": "Adds a rideable train car that follows vanilla Bedrock rails.",
+    "uuid": "6c9b2e8a-7f5c-4a4a-9f8c-2d0a6b4e1c33",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "Train behavior module",
+      "type": "data",
+      "uuid": "a1f8d7c2-5b34-4d91-8f20-7e6a3c9b2d45",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "f2d6a9c4-1e87-4b53-9a20-6c8d7f3b5e14",
+      "version": [1, 0, 0]
+    }
+  ]
+}
